@@ -1,2 +1,2 @@
 # memburg.github.io
-personal site
+Personal site, Game Of Life implemented as background.
