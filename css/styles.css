@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.icons a:first-child {
+    margin-right: 80px;
+}
+
+.icons a:last-child {
+    margin-left: 80px;
+}
+
+img {
+    width: 22px;
+}
+
+img:hover {
+    transition: ease-in-out 0.2s;
+    transform: scale(1.2);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(122, 239, 255);
+    letter-spacing: 15px;
+    font-size: 23px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 470px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 14px;
+        margin-top: 45px;
+    }
+    a {
+        margin-top: 45px;
+    }
+    img {
+        width: 20px;
+    }
+    .icons a:first-child {
+        margin-right: 40px;
+    }
+    .icons a:last-child {
+        margin-left: 40px;
+    }
+}
